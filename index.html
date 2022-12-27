@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./index.js"></script>
+    <title>events</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <div class="side-menu-container side-menu-container-hidden">
+        <ul class="navbar-list-sidemenu">
+            <li class="nav-product-link link">Produits</li>
+            <li class="link cart-item">Panier<span class="cart-bubble cart-bubble-visible"></span></li>
+        </ul>
+    </div>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo-home">
+                <h2 class="home-link link">LOGO</h2>
+            </div>
+            <nav class="burger-menu-container">
+                <img class="logo-burger" src="./assets/burger.svg" alt="menu-burger-svg">
+            </nav>
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li class="nav-product-link link">Produits</li>
+                    <li class="link cart-item">Panier<span class="cart-bubble"></span></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="main-container">
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <section class="footer-section">
+                    <h3 class="footer-title">A propos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, tempora dolores sit a
+                        voluptates expedita, asperiores saepe quas quisquam consequatur soluta enim corrupti at! In ab
+                        temporibus ut corrupti expedita.</p>
+                </section>
+                <section class="footer-section">
+                    <h3 class="footer-title">Contact</h3>
+                    <p>brechairevincent@gmail.com</p>
+                </section>
+                <section class="footer-section">
+                    <h3 class="footer-title">Liens</h3>
+                    <p>Produits</p>
+                    <p>Produits</p>
+                    <p>Produits</p>
+                    <p>Produits</p>
+                </section>
+            </div>
+        </footer>
+    </div>
+    <div class="modal-cart">
+        <div class="cart-container">
+            <div class="cart-header">
+                <h2>Panier</h2>
+                <div class="close-cart-btn">X</div>
+            </div>
+            <div class="cart-body"></div>
+            <div class="cart-footer">
+                <button class="validate-cart-btn btn">Valider</button>
+                <p class="cart-total-price"></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
